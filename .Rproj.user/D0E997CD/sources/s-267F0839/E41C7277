@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532195564241.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E41C7277",
+    "lastKnownWriteTime" : 1527638759,
+    "last_content_update" : 1527638759,
+    "path" : "/media/sf_oipm/code/repo/lib/race.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "59,0",
+        "scrollLine" : "32"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
