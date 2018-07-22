@@ -6,5 +6,5 @@ Author: Marvin Arnold
 Maintainer: Marvin Arnold <marvin@geeky.rocks>
 Description: Utilities for OIPM data analysis
 License: What license is it under?
-Encoding: GPLv3
+Encoding: GPL-3
 LazyData: true
