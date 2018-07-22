@@ -1,6 +1,5 @@
 ########################################################################################################
 ############################################### HELPERS ################################################
-library(dplyr)
 library(digest)
 vdigest <- Vectorize(digest)
 
@@ -125,12 +124,14 @@ districts.by.race.wide <- rbind(districts.by.race.wide,
                                 district.1.races, district.2.races, district.3.races, district.4.races,
                                 district.5.races, district.6.races, district.7.races, district.8.races)
 
+library(dplyr)
 colnames(districts.by.race.wide) <- district.races
 districts.by.race.wide <- districts.by.race.wide %>% mutate(
   district = districts,
   district.total.pop = district.total.pops
 )
 
+library(tidyr)
 districts.by.race <- gather(districts.by.race.wide, race, population, 1:6) %>% mutate(
   population = as.integer(population),
   pct.race.in.district = population / district.total.pop * 100
